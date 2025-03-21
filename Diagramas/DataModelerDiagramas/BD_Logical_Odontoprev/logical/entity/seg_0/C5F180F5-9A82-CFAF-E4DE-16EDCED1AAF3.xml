@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5F180F5-9A82-CFAF-E4DE-16EDCED1AAF3" name=" T_OPBD_PACIENTE">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 17:42:34 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_paciente" id="BC6D908B-444A-1E8E-6118-A64DC5D0824A">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 17:47:03 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_paciente" id="304F68EE-F32C-6F12-218C-524AD0F3B742">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 17:47:55 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="FC8569C2-51D8-E7BC-D171-969E70072F93">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 17:48:31 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="1C8D2967-9FF0-49D9-9696-A73AE258D2BA">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 17:49:11 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_sexo" id="DF2C218F-76BE-28F9-BC5C-5C47860D6B2B">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 17:50:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[M-masculino
+F-feminino
+N-não quis responder]]></commentInRDBMS>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="FFE474D9-B74C-9968-0266-949CCE58406C">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 17:53:29 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="A459E768-30EE-3F0B-C9E0-0DC452DE3C6A">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 17:54:48 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plano" id="E3C48C38-A749-E3B1-4DD8-E6F87ED9481D">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 19:28:18 UTC</createdTime>
+<generatorID>3DC9FE87-1D50-F778-54E9-ECD196214AF6</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="true"/>
+</engineerTo>
+<referedAttribute>4CC213C2-714B-51B7-407E-0BFD79E209E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D3126BA8-3FFA-B5DA-8205-BE9D8742731E" name="T_PACIENTE PK">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 17:47:19 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC6D908B-444A-1E8E-6118-A64DC5D0824A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

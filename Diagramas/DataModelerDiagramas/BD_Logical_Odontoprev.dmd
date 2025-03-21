@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BD_Logical_Odontoprev" id="E76B53F4-0E3C-4A1F-BD56-D6E2E09852EC" version="3.5">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 17:31:01 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E76B53F4-0E3C-4A1F-BD56-D6E2E09852EC</designId>
+</OSDM_Design>

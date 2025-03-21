@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A67EA53D-A245-91FE-A7CE-089BFDE1A0A9" containerWithKeyObject="2E1FB894-7CDE-D12E-5174-76AB60810DD8" localFKIndex="1987A2DA-B227-3826-1240-C0318A535175" name="T_OPBD_CHECK_IN_T_OPBD_RESPOSTAS_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>FA8E3C79-A15A-2EC0-4747-86FC81A557A6</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<referredTableLongName>T_OPBD_RESPOSTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AAC5AE7B-6E77-F648-BA79-E818D865C25D</referredTableID>
+<keyObject>1381902F-E758-660E-2326-128C9584FEB4</keyObject>
+<referredKeyID>1381902F-E758-660E-2326-128C9584FEB4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_resposta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

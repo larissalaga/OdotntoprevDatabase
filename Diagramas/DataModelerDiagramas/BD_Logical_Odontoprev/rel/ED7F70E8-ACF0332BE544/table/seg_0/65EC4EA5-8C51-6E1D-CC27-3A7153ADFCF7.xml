@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65EC4EA5-8C51-6E1D-CC27-3A7153ADFCF7" name="T_OPBD_PACIENTE">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>C5F180F5-9A82-CFAF-E4DE-16EDCED1AAF3</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_paciente" id="21B7D612-0B36-B33F-2C43-D5A2B4D94C70">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>BC6D908B-444A-1E8E-6118-A64DC5D0824A</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_paciente" id="207BA349-A45A-DBFC-1585-EB45DC2B7F9E">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>304F68EE-F32C-6F12-218C-524AD0F3B742</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="CB8D56B4-024E-0B66-F388-B8498DDA0AB3">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>FC8569C2-51D8-E7BC-D171-969E70072F93</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="4AD57A74-90F8-EA30-2E77-B9E2C61AFA3E">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>1C8D2967-9FF0-49D9-9696-A73AE258D2BA</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_sexo" id="9C8101FA-6DC5-D1E6-D3BE-E424D5766096">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[M-masculino
+F-feminino
+N-não quis responder]]></commentInRDBMS>
+<generatorID>DF2C218F-76BE-28F9-BC5C-5C47860D6B2B</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="4B2CD1B6-D86D-7F61-E3B4-D9AFBBF6A5B7">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>FFE474D9-B74C-9968-0266-949CCE58406C</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="BF649936-52A1-EFEF-3255-13605EFDD08D">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>A459E768-30EE-3F0B-C9E0-0DC452DE3C6A</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_OPBD_PLANO_id_plano" id="C75AA2E3-78AE-AE12-802B-42AC873895AE">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>E3C48C38-A749-E3B1-4DD8-E6F87ED9481D</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="248A1FCC-8E47-B39A-3E61-F9206DB26215" referredColumn="069B29D3-4AD9-5AC3-4338-467DBCA74B0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D94F406-A9E3-7B4E-4E01-15FE8D7D0810" name="T_OPBD_PACIENTE_PK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>D3126BA8-3FFA-B5DA-8205-BE9D8742731E</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21B7D612-0B36-B33F-2C43-D5A2B4D94C70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEAFAEF5-A23F-42FB-74F8-0CDD79940AE8" name="T_OPBD_PACIENTE_T_OPBD_PLANO_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>3DC9FE87-1D50-F778-54E9-ECD196214AF6</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C75AA2E3-78AE-AE12-802B-42AC873895AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

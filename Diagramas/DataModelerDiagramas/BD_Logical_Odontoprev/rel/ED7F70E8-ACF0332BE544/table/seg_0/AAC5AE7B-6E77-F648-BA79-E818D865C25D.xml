@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAC5AE7B-6E77-F648-BA79-E818D865C25D" name="T_OPBD_RESPOSTAS">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>E1F8AC21-CB34-45ED-EB99-D17B8139DA4C</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_resposta" id="3FC0B609-AE21-9F2E-064C-1820DE4996C6">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>50452FBC-A08C-B836-CF56-16D91BA3A089</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_resposta" id="72265D39-0E74-2C26-3098-B281DAB2FDB9">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>85CF647E-C4FD-A936-AF16-F3B39E11942A</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400 CHAR</dataTypeSize>
+<ownDataTypeParameters>400 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1381902F-E758-660E-2326-128C9584FEB4" name="T_OPBD_RESPOSTAS_PK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>80543F42-F79E-ABF1-58EC-B3DC938D5493</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FC0B609-AE21-9F2E-064C-1820DE4996C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

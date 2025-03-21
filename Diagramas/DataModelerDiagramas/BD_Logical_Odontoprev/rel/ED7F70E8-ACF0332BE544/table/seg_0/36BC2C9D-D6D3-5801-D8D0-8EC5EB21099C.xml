@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36BC2C9D-D6D3-5801-D8D0-8EC5EB21099C" name="T_OPBD_EXTRATO_PONTOS">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>20049E59-A535-4D8B-359C-D59092F25D26</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_extrato_pontos" id="5BB3EF1D-C3EF-25C2-DB15-49FAB10DD549">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>FE049556-B924-F552-40C1-0D4FF0C2A8E1</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_extrato" id="05AA6BD0-B97C-D42D-4A99-9BC5ED5B5200">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>D9E0AD56-21A1-91B8-24D1-F1CE9D86656E</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_numero_pontos" id="B1CE4D10-5C70-1E0A-11F3-C06ACEA8A9C1">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>93059BDE-9CB3-3C7B-C79F-1DABAB724A89</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_movimentacao" id="D3754B00-4E91-A4E1-9286-E80C640BC326">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>DFCE0A1F-33CB-87A0-85EB-B1F37E4A4E0D</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_OPBD_PACIENTE_id_paciente" id="1B4E2C51-546D-4944-D48D-700D55F89692">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>A3F838C9-0939-2EE5-ADD4-25F54DCBE193</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F052838-D0E3-958F-B28E-E885AFE97FE7" referredColumn="21B7D612-0B36-B33F-2C43-D5A2B4D94C70"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED336755-95E6-F783-AFDF-806E7ABF8FC4" name="T_OPBD_EXTRATO_PONTOS_PK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>62C72516-B4B9-27FF-2B79-D92AC2B8DE48</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BB3EF1D-C3EF-25C2-DB15-49FAB10DD549"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF284D4E-5CC0-733B-BFCA-A935677BF3B5" name="T_OPBD_EXTRATO_PONTOS_T_OPBD_PACIENTE_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>39667DAE-4240-71F2-EFFE-EF85714CCAE1</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B4E2C51-546D-4944-D48D-700D55F89692"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="338F5412-037F-B120-CDC6-08D9541E8864" name="T_OPBD_ANALISE_RAIO_X">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 17:44:26 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_analise_raio_x" id="DD5944A1-C250-23DD-BE4A-2D8D9F604187">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 18:49:11 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_analise_raio_x" id="23319B15-9D15-B2D5-D78D-A6A95C1D7EFF">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 18:49:43 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_analise_raio_x" id="1E5D144A-DCF5-2BFC-5122-71C6290BCFD5">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 18:50:24 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_raio_x" id="8F92EA96-26DA-3902-1A01-D1C2AC0B13BE">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 21:19:10 UTC</createdTime>
+<generatorID>444F9035-9BD8-9D78-27F6-406CE9B208C4</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="true"/>
+</engineerTo>
+<referedAttribute>3104B0D9-E67D-ECDD-812E-C44E799472EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D55DFF37-F9B9-71E6-331C-A005B047A499" name="T_ANALISE_RAIO_X PK">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 18:49:42 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD5944A1-C250-23DD-BE4A-2D8D9F604187</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

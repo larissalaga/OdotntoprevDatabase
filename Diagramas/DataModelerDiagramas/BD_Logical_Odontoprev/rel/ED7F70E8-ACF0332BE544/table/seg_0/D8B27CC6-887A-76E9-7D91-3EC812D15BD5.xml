@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8B27CC6-887A-76E9-7D91-3EC812D15BD5" name="T_OPBD_PLANO">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>6F9ECB4E-480A-6234-A5AF-6D7A5D83F018</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_plano" id="069B29D3-4AD9-5AC3-4338-467DBCA74B0B">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>4CC213C2-714B-51B7-407E-0BFD79E209E0</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_codigo_plano" id="7F7CDFF8-64BD-521F-13A2-0D78338F14B5">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>1D9270A4-8942-3B7D-A9AC-499456722A1A</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_plano" id="F6707368-278F-FD58-8B55-F9943D0616D1">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>038D7511-0788-339F-AFC6-79FFF41EE73C</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41B8E0B2-2B64-44DA-5335-739CE924640E" name="T_OPBD_PLANO_PK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>A10796FE-B676-5C3F-F2F1-2F6AB13A6909</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="069B29D3-4AD9-5AC3-4338-467DBCA74B0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E065985E-AD12-0EE1-6800-0277B2A52C7C" containerWithKeyObject="5961F629-E691-6BA7-3535-09DCBBC88BC6" localFKIndex="26B406B8-313E-C5FA-CDE1-87CD65E846EB" name="T_OPBD_ANALISE_RAIO_X_T_OPBD_RAIO_X_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>444F9035-9BD8-9D78-27F6-406CE9B208C4</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<referredTableLongName>T_OPBD_RAIO_X</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1B8271D5-83CB-4DBB-4911-12AE9D3A4816</referredTableID>
+<keyObject>8DBC3365-A8D6-2FCD-E130-E3AB07614221</keyObject>
+<referredKeyID>8DBC3365-A8D6-2FCD-E130-E3AB07614221</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_raio_x</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CAD91F4-29EE-62D5-93CA-801395414201" name="T_OPBD_PACIENTE_DENTISTA">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<ordsAlias>relation_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_OPBD_DENTISTA_id_dentista" id="1B589CBE-E877-B07C-001C-30F515C54E2C">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C1D1E94-E20C-C9BB-77DA-CB7106DA984A" referredColumn="1BA4C8BB-3A50-4D56-352D-BDBB816AED4D"/>
+</associations>
+</Column>
+<Column name="T_OPBD_PACIENTE_id_paciente" id="6F256192-2123-ACC9-D620-981618B28736">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4493F514-7B47-AE3A-2D3D-D596BF450750" referredColumn="21B7D612-0B36-B33F-2C43-D5A2B4D94C70"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E10856C4-DF18-52E6-BA7C-E22F88DF184E" name="Relation_2_PK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B589CBE-E877-B07C-001C-30F515C54E2C"/>
+<colUsage columnID="6F256192-2123-ACC9-D620-981618B28736"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BAFDEDA-D9B9-F84B-D818-D7D396A1F71F" name="Relation_2_T_OPBD_DENTISTA_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>6E8FF6C2-DC26-E7AD-21AD-2EDA09576BBE</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B589CBE-E877-B07C-001C-30F515C54E2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31778218-B5D4-FAD0-992F-393D1A3B3AFF" name="Relation_2_T_OPBD_PACIENTE_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>6E8FF6C2-DC26-E7AD-21AD-2EDA09576BBE</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F256192-2123-ACC9-D620-981618B28736"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

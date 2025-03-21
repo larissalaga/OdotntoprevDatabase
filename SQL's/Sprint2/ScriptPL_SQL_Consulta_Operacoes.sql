@@ -3,6 +3,7 @@
 SET SERVEROUTPUT ON;
 
 BEGIN
+    DBMS_OUTPUT.PUT('Começando');
     FOR lin IN(
         SELECT pl.nm_plano, COUNT(distinct p.nr_cpf) AS total_pacientes
         FROM T_OPBD_PACIENTE p
@@ -35,19 +36,22 @@ END;
 BEGIN
     FOR ques IN (
         SELECT p.ds_pergunta, NVL(r.ds_resposta, 'Em branco') AS ds_resposta, COUNT(*) AS numero_respostas
-        FROM T_OPBD_RESPOSTAS r
-        RIGHT JOIN T_OPBD_PERGUNTAS p ON p.id_pergunta = r.id_pergunta
+        FROM T_OPBD_PERGUNTAS p
+        RIGHT JOIN T_OPBD_CHECK_IN c ON c.id_pergunta = p.id_pergunta
+        LEFT JOIN T_OPBD_RESPOSTAS r ON r.id_resposta = c.id_resposta
         GROUP BY p.ds_pergunta, r.ds_resposta
         ORDER BY p.ds_pergunta, r.ds_resposta
     
     )LOOP
-        DBMS_OUTPUT.PUT_LINE('Pergunta: ' || ques.ds_pergunta || 'Resposta: ' || ques.ds_resposta || ', Total Respostas: ' || ques.numero_respostas);
+        DBMS_OUTPUT.PUT_LINE('Pergunta: ' || ques.ds_pergunta || ' Resposta: ' || ques.ds_resposta || ', Total Respostas: ' || ques.numero_respostas);
     END LOOP;
 END;
 
 --------------------------------------------------------------------------------------------------------------------------------
 --Estruturas de Decisão e Operações DML em Blocos Anônimos 
 --Busca o paciente por cpf, retorna o id e deleta valores duplicados
+
+SELECT * FROM T_OPBD_PACIENTE;
 
 DECLARE
     cpf NUMBER;
@@ -87,7 +91,7 @@ DECLARE
     WHERE NR_CPF = cpf;
 BEGIN
     cpf := '86523014563';
-    novo_nome := 'Beto Mal Hálito';
+    novo_nome := 'Beto';
     FOR pac IN pacientes LOOP
         paciente_encontrado := TRUE;
         id_pac := pac.id_paciente;

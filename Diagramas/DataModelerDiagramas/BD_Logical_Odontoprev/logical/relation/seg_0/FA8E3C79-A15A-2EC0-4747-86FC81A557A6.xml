@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_20" directorySegmentName="seg_0" id="FA8E3C79-A15A-2EC0-4747-86FC81A557A6">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:09 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<engineerTo>
+<item key="ED7F70E8-75BA-4B9B-257E-ACF0332BE544" value="true"/>
+</engineerTo>
+<sourcePk>80543F42-F79E-ABF1-58EC-B3DC938D5493</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E1F8AC21-CB34-45ED-EB99-D17B8139DA4C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E2EADC6-CC22-AFBF-FB21-B820491BC043</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="FBDFFE5D-5161-23C2-BAB3-7571D722550A" mainViewID="ECBB7371-DA53-E483-39E0-C5665DCC51EF">
+<createdBy>laris</createdBy>
+<createdTime>2024-09-29 17:31:01 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

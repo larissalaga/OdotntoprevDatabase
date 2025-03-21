@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="248A1FCC-8E47-B39A-3E61-F9206DB26215" containerWithKeyObject="65EC4EA5-8C51-6E1D-CC27-3A7153ADFCF7" localFKIndex="AEAFAEF5-A23F-42FB-74F8-0CDD79940AE8" name="T_OPBD_PACIENTE_T_OPBD_PLANO_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>3DC9FE87-1D50-F778-54E9-ECD196214AF6</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<referredTableLongName>T_OPBD_PLANO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D8B27CC6-887A-76E9-7D91-3EC812D15BD5</referredTableID>
+<keyObject>41B8E0B2-2B64-44DA-5335-739CE924640E</keyObject>
+<referredKeyID>41B8E0B2-2B64-44DA-5335-739CE924640E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_plano</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

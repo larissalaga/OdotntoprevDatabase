@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E1FB894-7CDE-D12E-5174-76AB60810DD8" name="T_OPBD_CHECK_IN">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>1E2EADC6-CC22-AFBF-FB21-B820491BC043</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_check_in" id="47A1BD70-585A-2D1E-A560-B5F29EB762F5">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>C80A9FEA-CE23-934F-3A5E-4E4DFC61F2F5</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_check_in" id="6D43DEB7-63AB-D42D-5A7A-0EF11D3D84F4">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>EAF876A6-59CB-C6AC-C4F3-67CF70BDA2CC</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_OPBD_PACIENTE_id_paciente" id="70895512-3F17-6BFB-13A5-C96ED63690D6">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>29854D22-30F3-1820-47CA-FD8329BE8F12</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="042A088E-A24D-C032-B072-D86A7957FDE7" referredColumn="21B7D612-0B36-B33F-2C43-D5A2B4D94C70"/>
+</associations>
+</Column>
+<Column name="T_OPBD_PERGUNTAS_id_pergunta" id="FC37A530-3EAE-6CB9-C9E4-571B40211301">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>79E6484A-8547-3D47-A66F-4079CF14C486</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98490565-CBAB-E03D-E900-D5A7D517C50A" referredColumn="7C17E174-4E07-EE61-D6A9-EF187FC8CC6E"/>
+</associations>
+</Column>
+<Column name="T_OPBD_RESPOSTAS_id_resposta" id="3071491A-A45B-B132-BE89-C50DE8A44632">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>731F43EC-8350-73A0-9B9A-A8B7699126F3</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A67EA53D-A245-91FE-A7CE-089BFDE1A0A9" referredColumn="3FC0B609-AE21-9F2E-064C-1820DE4996C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14F192BA-B371-069B-F11B-E9454FA2C233" name="T_OPBD_CHECK_IN_PK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>CA72A60D-5D79-EE25-E184-8250A900AE63</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47A1BD70-585A-2D1E-A560-B5F29EB762F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D55B107C-54EC-DFE9-0EBA-8D332CD64C05" name="T_OPBD_CHECK_IN_T_OPBD_PERGUNTAS_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>B9647869-1314-7D8F-C8E2-5B87573C31AE</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC37A530-3EAE-6CB9-C9E4-571B40211301"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1987A2DA-B227-3826-1240-C0318A535175" name="T_OPBD_CHECK_IN_T_OPBD_RESPOSTAS_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>FA8E3C79-A15A-2EC0-4747-86FC81A557A6</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3071491A-A45B-B132-BE89-C50DE8A44632"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66341A2A-92BE-FE37-D30A-4A81D2971866" name="T_OPBD_CHECK_IN_T_OPBD_PACIENTE_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>E90CC65F-6FD6-8C43-BCDD-4637CF60A9CA</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70895512-3F17-6BFB-13A5-C96ED63690D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

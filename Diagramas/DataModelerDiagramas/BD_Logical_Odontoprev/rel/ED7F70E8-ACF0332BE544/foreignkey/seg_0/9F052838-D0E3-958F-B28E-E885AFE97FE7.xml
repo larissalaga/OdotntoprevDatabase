@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9F052838-D0E3-958F-B28E-E885AFE97FE7" containerWithKeyObject="36BC2C9D-D6D3-5801-D8D0-8EC5EB21099C" localFKIndex="EF284D4E-5CC0-733B-BFCA-A935677BF3B5" name="T_OPBD_EXTRATO_PONTOS_T_OPBD_PACIENTE_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>39667DAE-4240-71F2-EFFE-EF85714CCAE1</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<referredTableLongName>T_OPBD_PACIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>65EC4EA5-8C51-6E1D-CC27-3A7153ADFCF7</referredTableID>
+<keyObject>7D94F406-A9E3-7B4E-4E01-15FE8D7D0810</keyObject>
+<referredKeyID>7D94F406-A9E3-7B4E-4E01-15FE8D7D0810</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_paciente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

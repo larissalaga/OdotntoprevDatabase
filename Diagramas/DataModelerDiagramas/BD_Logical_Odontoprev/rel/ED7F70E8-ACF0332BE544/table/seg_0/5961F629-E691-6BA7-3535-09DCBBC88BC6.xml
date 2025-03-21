@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5961F629-E691-6BA7-3535-09DCBBC88BC6" name="T_OPBD_ANALISE_RAIO_X">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>338F5412-037F-B120-CDC6-08D9541E8864</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_analise_raio_x" id="ADEB4600-38EC-EDAC-0776-01236F2C9FEC">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>DD5944A1-C250-23DD-BE4A-2D8D9F604187</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_analise_raio_x" id="B8D0D9AF-DD55-9B9B-13DE-E8EFFFDEAF4C">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>23319B15-9D15-B2D5-D78D-A6A95C1D7EFF</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_analise_raio_x" id="7D0EDBCB-ACD7-FA45-6839-D141A3800DFD">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>1E5D144A-DCF5-2BFC-5122-71C6290BCFD5</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_OPBD_RAIO_X_id_raio_x" id="CA7E1B08-9B8C-4C62-53FC-6CFCB05270C3">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>8F92EA96-26DA-3902-1A01-D1C2AC0B13BE</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E065985E-AD12-0EE1-6800-0277B2A52C7C" referredColumn="E450FE24-289F-9FDF-315F-40DB77685130"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EC4577C-D5F5-41B6-CDFB-2A6EDA4C07EA" name="T_OPBD_ANALISE_RAIO_X_PK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>D55DFF37-F9B9-71E6-331C-A005B047A499</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADEB4600-38EC-EDAC-0776-01236F2C9FEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56D660F7-1380-61D5-A553-C9726DC4B3F5" name="T_OPBD_ANALISE_RAIO_X__IDX">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>444F9035-9BD8-9D78-27F6-406CE9B208C4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CA7E1B08-9B8C-4C62-53FC-6CFCB05270C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26B406B8-313E-C5FA-CDE1-87CD65E846EB" name="T_OPBD_ANALISE_RAIO_X_T_OPBD_RAIO_X_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>444F9035-9BD8-9D78-27F6-406CE9B208C4</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA7E1B08-9B8C-4C62-53FC-6CFCB05270C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="98490565-CBAB-E03D-E900-D5A7D517C50A" containerWithKeyObject="2E1FB894-7CDE-D12E-5174-76AB60810DD8" localFKIndex="D55B107C-54EC-DFE9-0EBA-8D332CD64C05" name="T_OPBD_CHECK_IN_T_OPBD_PERGUNTAS_FK">
+<createdBy>laris</createdBy>
+<createdTime>2024-10-30 23:27:16 UTC</createdTime>
+<generatorID>B9647869-1314-7D8F-C8E2-5B87573C31AE</generatorID>
+<ownerDesignName>BD_Logical_Odontoprev</ownerDesignName>
+<referredTableLongName>T_OPBD_PERGUNTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3FE720A8-BA4C-6F87-C1AF-2261BB6C5DB1</referredTableID>
+<keyObject>6D36D235-BF2A-35E8-A8C5-1BD0AD0780A0</keyObject>
+<referredKeyID>6D36D235-BF2A-35E8-A8C5-1BD0AD0780A0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pergunta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
